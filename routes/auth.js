@@ -1,0 +1,20 @@
+
+const express = require('express');
+
+const router = express.Router();
+
+// @route GET api/auth
+// @desc Register a user
+// @access Private
+router.get('/', (req, res) => {
+    res.send('Get loggedin user')
+})
+
+// @route POST api/auth
+// @desc Auth a user and get a token
+// @access Private
+router.post('/', (req, res) => {
+    res.send('Log in user')
+})
+
+module.exports = router;
