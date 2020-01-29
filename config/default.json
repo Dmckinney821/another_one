@@ -1,4 +1,5 @@
 
 {
-    "mongoURI": "mongodb+srv://dan123:dan123@clusterkeeper-3i4yz.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://dan123:dan123@clusterkeeper-3i4yz.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
 }
